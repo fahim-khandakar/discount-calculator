@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main-container">
+      <div id="container">
+        <form id="formId">
+          <div class="heading">
+            <h1>Check here! your discount Price.</h1>
+          </div>
+
+          <div class="originalPrice">
+            Original price:
+            <input
+              id="originalPrice"
+              type="text"
+              placeholder="Price Amount..."
+            />
+          </div>
+
+          <div class="discount">
+            Discount (% off):
+            <input id="discount" type="text" placeholder="Discount" />
+          </div>
+
+          <div class="finalPrice">
+            Final price: <span id="finalPrice"></span>
+          </div>
+          <div class="save">You have save: <span id="save"></span></div>
+        </form>
+        <div class="submit">
+          <button class="btn" type="submit">Apply</button>
+        </div>
+        <div class="reset">
+          <input type="button" id="resetBtn" value="Reset" />
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
